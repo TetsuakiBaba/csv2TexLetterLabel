@@ -43,6 +43,8 @@ platex label; dvipdfmx label
 * Tetsuaki Baba
 * info@tetsuakibaba.jp
 
+# Contributor
+* [Keisuke Fujiwara](https://www.keisukefujiwara.com)
 
 # License
 * csv2TexLetterLabel is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
