@@ -1,0 +1,13 @@
+\documentclass[twocolumn,dvipdfmx]{article}\usepackage[top=15truemm,bottom=15truemm,left=15truemm,right=15truemm]{geometry}\renewcommand{\baselinestretch}{1.25}\usepackage[utf8]{inputenc}\usepackage{tcolorbox}\tcbuselibrary{raster,skins}\newtcolorbox{note}[1]{enhanced,skin=bicolor,before skip=10pt plus 10pt minus 10pt,after skip=10pt plus 10pt minus 10pt,boxrule=0.4pt,colframe=black,colback=white,coltitle=white,fonttitle=\textbf,bottom=4pt,top=5pt,toprule=1pt,sharp corners,toptitle=-12pt,bottomtitle=1pt,title=\flushright \strut {#1},segmentation hidden,segmentation style={color=black},}\newcommand{\addressbox}[3]{\begin{note}{\footnotesize{\textbf{Hello World}}}\centering\vspace{25pt}〒 #1 \par#2 \par\large{#3}　様\vspace{25pt}\tcblower\centering\color{white}{\textbf{\footnotesize{Industrial Art, Tokyo Metropoitan University}}}\end{note}}\begin{document}
+
+\addressbox{160--0005}{東京都 \\ 新宿区\\ 愛住町\\1-6}{上杉辰男}
+\addressbox{640--8204}{和歌山県 \\ 和歌山市\\ 伝法橋南ノ丁\\1-13-2}{宇佐美夏希}
+\addressbox{402--0213}{山梨県 \\ 南都留郡道志村\\ 谷相\\3-13}{大河原晃年}
+\addressbox{038--3301}{青森県 \\ つがる市\\ 富萢町\\1-16}{吉村風羽雅}
+\addressbox{372--0042}{群馬県 \\ 伊勢崎市\\ 中央町\\3-19-5}{奥野俊一}
+\addressbox{410--0818}{静岡県 \\ 沼津市\\ 中原町\\4-6-4}{結城暢興}
+\addressbox{406--0044}{山梨県 \\ 笛吹市\\ 石和町砂原\\3-13-4}{浜果凛}
+\addressbox{859--3703}{長崎県 \\ 東彼杵郡波佐見町\\ 野々川郷\\3-18-7}{川上裕美}
+\addressbox{371--0105}{群馬県 \\ 前橋市\\ 富士見町石井\\3-19-4}{中原敬二}
+\addressbox{028--6952}{岩手県 \\ 二戸市\\ 浄法寺町御山大久保\\3-13-2}{持田慶}
+\end{document}
