@@ -25,7 +25,7 @@ CSVファイルに保存された住所録から宛名ラベルをTeX形式で�
 # Usage
 プロジェクトをクローンして、住所録のcsvファイル形式に合わせてpythonコードを修正して、実行。label.texというファイルが生成されるので、platexでコンパイルしてpdfにする。という流れです。
 ```bash
-git clone https://github.com/TetsuakiBaba/csv2TexLetterLabel
+git clone https://github.com/TetsuakiBaba/csv2TexLetterLabel.git
 cd csv2TexLetterLabel
 python3 csv2TexLetterLabel.py
 platex label; dvipdfmx label
